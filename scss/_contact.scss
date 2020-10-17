@@ -1,0 +1,143 @@
+/*=========== clients_logo_area  =========*/
+.clients_logo_area{
+    text-align: center;
+}
+.clients_log_item{
+    display: inline-block;
+    opacity: 0.40;
+    transition: opacity 0.3s linear;
+    img{
+        max-width: 100%;
+    }
+    &:hover{
+        opacity: 1;
+    }
+}
+/*=========== clients_logo_area  =========*/
+
+/*============ h_contact_area css ==========*/
+.h_contact_area{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 100px 0px 70px;
+    .error{
+        color: #fff;
+    }
+}
+.get_info{
+    margin-bottom: 35px;
+    .get_info_item{
+        align-items: center;
+        margin-bottom: 30px;
+        .round_icon{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #fff;
+            text-align: center;
+            border-radius: 50%;
+            color: #fff;
+            line-height: 98px;
+            margin-right: 15px;
+            i{
+                &:before{
+                    font-size: 30px;
+                }
+            }
+        }
+        .media-body{
+            p{
+                font-size: 16px;
+                line-height: 36px;
+                margin-bottom: 0;
+                color: #fff;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.contact_form{
+    .form-group{
+        margin-bottom: 30px; 
+        .form-control{
+            background: transparent;
+            border-radius: 0px;
+            border: 0px;
+            border-bottom: 2px solid #fff;
+            font-size: 14px;
+            color: #fff;
+            padding-left: 0;
+            padding-bottom: 14px;
+            box-shadow: none;
+            @include placeholder{
+                color: #b9bbc0;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+        .error{
+            margin-bottom: 0;
+        }
+        textarea{
+            &.form-control{
+                height: 150px;
+            }
+        }
+        .theme_btn_two {
+            min-width: 230px;
+        }
+    }
+}
+#success{
+    color: $green;
+}
+#error{
+    color: red;
+}
+#success,#error{
+    display: none;
+}
+/*============ h_contact_area css ==========*/
+
+/*============ get_touch_area css ==========*/
+.get_touch_area{
+    padding: 100px 0px 70px;
+    .get_info{
+        margin-bottom: 0;
+        .get_info_item{
+            .round_icon{
+                border-color: $green;
+                color:$green;
+            }
+            .media-body{
+                p{
+                    color: #8b8b8b;
+                    a{
+                        color: #8b8b8b;
+                        &:hover{
+                            color: $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============ get_touch_area css ==========*/
+
+/*============ contact area css ==========*/
+.contact_area{
+    padding: 100px 0px 70px;
+    .contact_form{
+        .form-group{
+            .form-control{
+                border-color: #d7d7d7;
+                color: $title_c;
+            }
+        } 
+    } 
+}
+/*============ contact area css ==========*/

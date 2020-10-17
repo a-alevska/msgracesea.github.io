@@ -1,0 +1,30 @@
+/*font Variables*/
+$ral: 'Raleway', ;
+$rob: 'Roboto', sans-serif;
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900|Roboto:300,400,500,700,900&display=swap');
+
+$green: #a1b541;
+$title_c: #131313;
+$gray: #8b8b8b;
+
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+.col-md-offset-right-1,.col-lg-offset-right-1{
+    margin-right: 8.33333333%;
+}
+// Font family link

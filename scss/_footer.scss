@@ -1,0 +1,172 @@
+/*=========== footer_area css ============*/
+.footer_area{}
+.footer_top{
+    background: rgb(33, 33, 33);
+    position: relative;
+    z-index: 1;
+    padding: 95px 0px 80px;
+    &:before{
+        content: "";
+        background: url("../img/footer_bg.jpg") no-repeat scroll center bottom / cover ;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.03;
+    }
+}
+.f_widget{
+    .f_title{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: $ral;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .post_date{
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 30px;
+        letter-spacing: 1.5px;
+        color: #505050;
+    }
+    p{
+        color: #898989;
+    }
+    a{
+        font-size: 16px;
+        line-height: 28px;
+        display: inline-block;
+        color: #898989;
+        font-family: $rob;
+        &:hover{
+            color: #fff;
+        }
+    }
+    ul{
+        margin-bottom: 0;
+        li{
+            position: relative;
+            padding: 20px 0px 12px 20px;
+            a{
+                font-size: 16px;
+                display: inline-block;
+                color: #898989;
+                font-family: $rob;
+            }
+            i{
+                color: #444444;
+                margin-right: 15px;
+                &:before{
+                    font-size: 16px;
+                }
+            }
+            & + li{
+                border-top: 1px solid #333;
+            }
+        }
+    }
+    &.recent_widget{
+        ul{
+            li{
+                &:before{
+                    content: "";
+                    width: 5px;
+                    height: 5px;
+                    background: #fff;
+                    position: absolute;
+                    left: 0;
+                    top: 28px;
+                }
+                &:hover{
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }   
+    }
+    .tweets_feed{
+        li{
+            padding-left: 0px;
+            .twitter_item{
+                p{
+                    margin-bottom: 0;
+                    span{
+                        transition: all 0.2s linear;
+                    }
+                }
+                &:hover{
+                    p{
+                        span{
+                            color: $green;
+                        }
+                        a{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.get_info_widget{
+        ul{
+            li{
+                padding-left: 0;
+                p{
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .social_icon{
+            padding-top: 28px;
+            border-top: 1px solid #333;
+            a{
+                color: #444444;
+                i{
+                    &:before{
+                        font-size: 24px;
+                    }
+                }
+                & + a{
+                    margin-left: 25px;
+                }
+                &:hover{
+                    color: $green;
+                }
+            }
+        }
+    }
+}
+
+.footer_bottom{
+    background: #131313;
+    padding: 36px 0px;
+    p,a{
+       font-size: 14px;
+        color: #797979;
+    }
+    p{
+        margin-bottom: 0;
+        a{
+            color: $green;
+        }
+    }
+    .f_menu{
+        margin-bottom: 0;
+        li{
+            display: inline-block;
+            a{
+                &:hover{
+                    color: $green;
+                }
+            }
+            & + li{
+                margin-left: 35px;
+            }
+        }
+    }
+}
+/*=========== footer_area css ============*/

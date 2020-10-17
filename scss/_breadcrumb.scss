@@ -1,0 +1,40 @@
+/*============ breadcrumb_area  css ============*/
+.breadcrumb_area{
+    padding: 350px 0px 250px;
+}
+.breadcrumb_content{
+    h1{
+        font-size: 48px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+}
+.breadcrumb{
+    background: transparent;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 0;
+    li{
+        font-size: 16px;
+        font-family: $rob;
+        color: #fff;
+        letter-spacing: 0.8px;
+        a{
+            color: #fff;
+        }
+        & + li{
+            position: relative;
+            padding-left: 20px;
+            &:before{
+                content: "-";
+                position: absolute;
+                left: 8px;
+                top: 0;
+                font-size: 14px;
+            }
+        }
+    }
+}
+/*============ breadcrumb_area  css ============*/

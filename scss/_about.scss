@@ -1,0 +1,136 @@
+/*================= about_area css ==============*/
+.about_area{}
+.about_story{
+    padding: 0px 89px;
+    .a_image{
+        font-size: 274px;
+        font-family: $ral;
+        line-height: 195px;
+        font-weight: 700;
+        color: #fff;
+        background: url("../img/text_bg.jpg") no-repeat scroll 36% 96%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-right: 20px;
+    }
+    .section_tilte{
+        margin-bottom: 25px;
+    }
+    .about_text{
+        p{
+            font-size: 16px;
+            line-height: 30px;
+            color: #8b8c8c;
+        }
+        .theme_btn{
+            margin-top: 25px;
+        }
+    }
+}
+.about_img{
+    max-width: 770px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    .image_one,.image_two,.image_three{
+        display: inline-block;
+        img{
+            max-width: 100%;
+        }
+    }
+    .image_two{
+        margin-top: 50px;
+        margin-left: -30px;
+    }
+    .popup-youtube{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        i{
+            &:before{
+                font-size: 50px;
+            }
+        }
+        &:hover{
+            color: $green;
+        }
+    }
+}
+.image_three{
+    position: absolute;
+    right: 140px;
+    top: 50px;
+}
+/*================= about_area css ==============*/
+
+/*================= about_area_two css ==============*/
+.about_area_two{}
+.about_content_two{
+    .section_tilte{
+        margin-bottom: 28px;
+        padding-top: 70px;
+    }
+    p{
+        margin-bottom: 32px;
+    }
+    .theme_btn{
+        margin-top: 12px;
+    }
+}
+.about_img_inner{
+    position: relative;
+    padding-top: 170px;
+    padding-bottom: 60px;
+    margin-left: 70px;
+    .img_two{
+        position: absolute;
+        right: 70px;
+        bottom: 0px;
+        z-index: 1;
+    }
+    .img_three{
+        position: absolute;
+        height: 472px;
+        width: 370px;
+        border: 15px;
+        border-style: solid;
+        border-image: url("../img/home-two/about_img_three_border.jpg") 4% round;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        padding: 20px;
+    }
+}
+/*================= about_area_two css ==============*/
+
+/*================= about_area_three css ==============*/
+.about_area_three{
+    .about_img_inner{
+        padding-bottom: 0;
+        .img_first{
+            position: relative;
+            z-index: 1;
+        }
+        .img_three{
+            border-image: url("../img/home3/about_img_2-1.jpg") 4% round;
+            height: 470px;
+            width: 470px;
+            left: 30px;
+            z-index: inherit;
+            img{
+                z-index: 2;
+                position: relative;
+            }
+        }
+    }
+}
+
+.design_img{
+    max-width: 100%;
+}
+/*================= about_area_three css ==============*/

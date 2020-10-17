@@ -1,0 +1,99 @@
+/*============ price_area  =============*/
+.price_item {
+    border: 3px solid #f7f7f7;
+    padding: 45px 22px 50px;
+    transition: all 0.3s linear;
+    height: 100%;
+    cursor: pointer;
+    .p_head{
+        border-bottom: 1px solid #e9e9e9;
+        padding-bottom: 40px;
+        transition: all 0.2s linear;
+        h6{
+            font-size: 18px;
+            font-weight: 900;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            margin-bottom: 26px;
+        }
+        .border{
+            width: 60px;
+            height: 3px;
+            background: $green;
+            margin: 0 auto;
+            border: 0px !important;
+        }
+        .price_rate{
+            font-size: 60px;
+            color: #2d2f35;
+            font-weight: 700;
+            font-family: $ral;
+            line-height: 65px;
+            padding-top: 26px;
+            padding-bottom: 10px;
+        }
+        p{
+            color: #8b8b8b;
+            margin-bottom: 0;
+        }
+    }
+    .p_body{
+        padding-top: 50px;
+    }
+    ul{
+        li{
+            color: #83858b;
+            i{
+                margin-right: 6px;
+                color: $green;
+                &:before{
+                    font-size: 14px;
+                }
+                &.cros{
+                    color: #f53157;
+                    &:before{
+                        font-size: 12px;
+                    }
+                }
+            }
+            & + li{
+                margin-top: 22px;
+            }
+        }
+    }
+    .theme_btn{
+        min-width: 230px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &:hover{
+        background: #2d2f35;
+        border-color: #41444b;
+        .p_head h6,p,.price_rate{
+            color: #fff;
+        }
+        .p_head{
+            border-color: #464850;
+        }
+    }
+}
+/*============ price_area  =============*/
+
+/*============ price_area_two   =============*/
+.price_area_two {
+    .price_item{
+        background: #fff;
+        border: 3px solid rgb(247, 247, 247);
+        &:hover{
+            background: #2d2f35;
+            border-color: #41444b;
+            .p_head h6,p,.price_rate{
+                color: #fff;
+            }
+            .p_head{
+                border-color: #464850;
+            }
+        }
+    }
+}
+/*============ price_area_two   =============*/

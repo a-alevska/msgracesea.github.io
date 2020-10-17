@@ -1,0 +1,279 @@
+/*=============testimonial_area css ==================*/
+.parallax_effect{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.overlay_bg{
+    position: absolute;
+    background: #131313;
+    opacity: 0.50;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+.testimonial_inner{
+    .slick-list{
+        max-width: 740px;
+        margin: 0px auto !important;
+        text-align: center;
+    }
+    .item{
+        position: relative;
+        padding-top: 90px;
+        &:before{
+            content: "\f11e";
+            font-size: 400px;
+            position: absolute;
+            line-height: 400px;
+            font-family: Flaticon;
+            top: 0;
+            left: 50%;
+            z-index: -1;
+            margin-left: -200px;
+            color: rgba(19, 19, 19, 0.2);
+            transform: scale(0.5);
+            transform-origin: 48% 89%;
+            transition: all 0.8s 0.5s linear;
+            opacity: 0;
+        }
+        &.slick-active{
+            &:before{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    }
+    p{
+        font-size: 20px;
+        line-height: 36px;
+        color: #fff;
+        font-family: $rob;
+        font-weight: 400;
+    }
+    h6{
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 2.38px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    span{
+        color: #c2c2c2;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: $rob;
+    }
+    .clients_profile{
+        padding-top: 65px;
+        .clients_img{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 30px;
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                border: 1px solid #fff;
+                top: 2px;
+                left: 2px;
+                right: 2px;
+                bottom: 2px;
+                border-radius: 50%;
+            }
+        }
+    }
+    .slick-dots{
+        bottom: 0; 
+        position: relative;
+        padding-top: 35px;
+        li{
+            width: auto;
+            height: auto;
+            button{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                transform: scale(0.9);
+                background: #9f9fa4;
+                transition: all 0.2s linear;
+                &:before{
+                    display: none;
+                }
+            }
+            &.slick-active{
+                button{
+                    background: $green;
+                    transform: scale(1.03);
+                }
+            }
+        }
+    }
+    .slick-arrow{
+        width: auto;
+        height: auto;
+        opacity: 0;
+        transition: all 0.3s linear;
+        &:before{
+            color: #cacaca;
+            font-family: "Flaticon";
+            font-size: 36px;
+            transition: color 0.2s linear;
+        }
+        &:hover{
+            &:before{
+                color: $title_c;
+            }
+        }
+        &.slick-next{
+            right: 20px;
+            &:before{
+                content: "\f109";
+            }
+        }
+        &.slick-prev{
+            left: 20px;
+            &:before{
+                content: "\f108";
+            }
+        }
+    }
+    &:hover{
+        .slick-arrow{
+            opacity: 1;
+            &.slick-next{
+                right: 160px;
+            }
+            &.slick-prev{
+                left: 160px;
+            }
+        }
+    }
+}
+/*=============testimonial_area css ==================*/
+
+/*=============testimonial_area_two css ==================*/
+.testimonial_area_two{
+    .testimonial_inner{
+        h6{
+            color: $title_c;
+        }
+        p{
+            color: #5b5b5b;
+        }
+        .item{
+            &:before{
+                color: #f7f7f7;
+            }
+        }
+    }
+}
+
+/*=============testimonial_area_two css ==================*/
+
+/*=============promo_area css ==================*/
+.promo_area{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 247px 0px 240px;
+}
+.promo_content {
+    h2{
+        font-size: 72px;
+        font-family: $ral;
+        font-weight: 700;
+        color: #fff;
+        line-height: 90px;
+        text-transform: uppercase;
+        letter-spacing: 3.6px;
+        margin-bottom: 15px;
+        span{
+            font-weight: 300;
+        }
+        .color_green{
+            color: $green;
+            font-weight: 700;
+        }
+    }
+    h6{
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.10px;
+        color: #fff;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 25px;
+        font-family: $rob;
+        letter-spacing: 0.10px;
+        color: #fff;
+    }
+    .theme_btn{
+        margin-top: 15px;
+        min-width: 230px;
+        padding: 8px 44px;
+        border: 3px solid $green;
+        &:hover{
+            background: transparent;
+            border-color: #fff;
+            color: #fff;
+        }
+    }
+    .theme_btn_two{
+        line-height: 27px;
+        margin-top: 15px;
+        min-width: 230px;
+        margin-left: 30px;
+    }
+}
+/*=============promo_area css ==================*/
+
+/*=============fact_area css ==================*/
+.fact_area{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 85px 0px;
+    .parallax_effect{
+        opacity: 0.4;
+    }
+}
+.fact_item{
+    width: calc(100% / 5);
+    .counter{
+        font-size: 48px;
+        line-height: 55px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        display: block;
+    }
+    .counter,p{
+        color: #fff;
+        font-family: $ral;
+    }
+    p{
+        margin-bottom: 8px;
+    }
+}
+.dark_bg_color{
+    background: #131313;
+}
+/*=============fact_area css ==================*/
+
+/*=============fact_area_two css ==================*/
+.fact_area_two{
+    .fact_item {
+        .counter{
+            color: $green;
+        }
+        p{
+            color: #8b8b8b;
+        }
+    }
+}
+/*=============fact_area_two css ==================*/
