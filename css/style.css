@@ -139,7 +139,7 @@ button:focus {
 }
 
 .bg_color {
-  background: #f7f7f7;
+  background: #212120;
 }
 
 /*---------------------------------------------------- */
@@ -148,22 +148,22 @@ button:focus {
   font-size: 12px;
   font-family: "Raleway";
   font-weight: 700;
-  background: #a1b541;
+  background: #212120;
   display: inline-block;
   color: #fff;
   text-transform: uppercase;
   border-radius: 3px;
   padding: 8px 52px;
   letter-spacing: 3px;
-  border: 3px solid #a1b541;
+  border: 3px solid #212120;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   text-align: center;
 }
 .theme_btn:hover {
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(161, 181, 65, 0.4);
-          box-shadow: 0px 10px 30px 0px rgba(161, 181, 65, 0.4);
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(33, 33, 32, 0.4);
+          box-shadow: 0px 10px 30px 0px rgba(33, 33, 32, 0.4);
   color: #fff;
 }
 
@@ -497,12 +497,12 @@ button:focus {
 
 /*=========== navbar_fixed css ============*/
 .navbar_fixed {
-  background: #fff;
+  background: #212120;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
           box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
 }
 .navbar_fixed .search {
-  color: #131313;
+  color: #f2f3f5;
 }
 .navbar_fixed .navbar-brand img {
   display: none;
@@ -514,10 +514,10 @@ button:focus {
   padding: 28px 0px;
 }
 .navbar_fixed .menu > .nav-item > .nav-link {
-  color: #131313;
+  color: #f2f3f5;
 }
 .navbar_fixed .menu > .nav-item > .nav-link:before {
-  background: #131313;
+  background: #f2f3f5;
 }
 
 /*============ header_area css=============*/
@@ -1320,7 +1320,7 @@ input[type=text] {
 /*============= service_area_three css =============*/
 /*============= action_area css =============*/
 .action_area {
-  background: #bdc4ff;
+  background: #212120;
   padding: 124px 0px;
 }
 .action_area h2 {
@@ -1335,12 +1335,12 @@ input[type=text] {
 }
 
 .action_area_two {
-  background: #a1b541;
+  background: #131313;
 }
 .action_area_two .theme_btn_two:hover {
   background: #fff;
   border-color: #fff;
-  color: #a1b541;
+  color: #212120;
 }
 
 /*============= action_area css =============*/
@@ -2305,7 +2305,7 @@ input[type=text] {
   content: "";
   width: 30px;
   height: 2px;
-  background: #a1b541;
+  background: #212120;
   display: block;
   position: absolute;
   bottom: 0;
@@ -2531,17 +2531,17 @@ input[type=text] {
   margin-bottom: 0;
 }
 .get_touch_area .get_info .get_info_item .round_icon {
-  border-color: #a1b541;
-  color: #a1b541;
+  border-color: #f2f3f5;
+  color: #f2f3f5;
 }
 .get_touch_area .get_info .get_info_item .media-body p {
-  color: #8b8b8b;
+  color: #f2f3f5;
 }
 .get_touch_area .get_info .get_info_item .media-body p a {
-  color: #8b8b8b;
+  color: #f2f3f5;
 }
 .get_touch_area .get_info .get_info_item .media-body p a:hover {
-  color: #a1b541;
+  color: #a1aebf;
 }
 
 /*============ get_touch_area css ==========*/
@@ -2566,7 +2566,7 @@ input[type=text] {
 }
 .footer_top:before {
   content: "";
-  background: url("../img/footer_bg.jpg") no-repeat scroll center bottom/cover;
+  background: url("../img/slider2.png") no-repeat scroll center bottom/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -2675,7 +2675,7 @@ input[type=text] {
   margin-left: 25px;
 }
 .f_widget.get_info_widget .social_icon a:hover {
-  color: #a1b541;
+  color: #5a6f85;
 }
 
 .footer_bottom {
@@ -2690,7 +2690,7 @@ input[type=text] {
   margin-bottom: 0;
 }
 .footer_bottom p a {
-  color: #a1b541;
+  color: #5a6f85;
 }
 .footer_bottom .f_menu {
   margin-bottom: 0;
@@ -2699,7 +2699,7 @@ input[type=text] {
   display: inline-block;
 }
 .footer_bottom .f_menu li a:hover {
-  color: #a1b541;
+  color: #5a6f85;
 }
 .footer_bottom .f_menu li + li {
   margin-left: 35px;
