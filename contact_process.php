@@ -1,6 +1,6 @@
 <?php
 
-    $to = "your_email@gmail.com";
+    $to = "anna.alevska@nure.ua";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $name2 = $_REQUEST['name2'];
@@ -13,7 +13,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Saasland.";
+    $subject = "Сообщение от фандома Ведьмака";
 
     $logo = '';
     $link = '#';
