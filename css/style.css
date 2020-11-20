@@ -94,7 +94,7 @@ button:focus {
   margin-bottom: 53px;
 }
 .section_tilte i {
-  color: #a1b541;
+  color: #212120;
   line-height: 30px;
   display: inline-block;
   margin-bottom: 17px;
@@ -105,7 +105,7 @@ button:focus {
 .section_tilte h6 {
   font-size: 12px;
   letter-spacing: 3.6px;
-  color: #a1b541;
+  color: #212120;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -186,9 +186,9 @@ button:focus {
   transition: all 0.3s linear;
 }
 .theme_btn_two:hover {
-  background: #a1b541;
+  background: #212120;
   color: #fff;
-  border-color: #a1b541;
+  border-color: #212120;
 }
 
 .w_btn {
@@ -197,8 +197,8 @@ button:focus {
   background: transparent;
 }
 .w_btn:hover {
-  background: #a1b541;
-  border-color: #a1b541;
+  background: #212120;
+  border-color: #212120;
   color: #fff;
 }
 
@@ -304,7 +304,7 @@ button:focus {
   display: none;
 }
 .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link {
-  color: #a1b541;
+  color: #212120;
 }
 .menu > .nav-item.submenu .dropdown-menu .nav-item > .dropdown-menu {
   -webkit-transition: all 0.3s ease-in;
@@ -369,7 +369,7 @@ button:focus {
   font-size: 15px;
 }
 .search:hover {
-  color: #a1b541;
+  color: #212120;
 }
 
 .mobile-search {
@@ -1105,7 +1105,7 @@ input[type=text] {
   font-size: 50px;
 }
 .about_img .popup-youtube:hover {
-  color: #a1b541;
+  color: #212120;
 }
 
 .image_three {
@@ -1219,7 +1219,7 @@ input[type=text] {
   transition: color 0.2s linear;
 }
 .service_item h6:hover {
-  color: #a1b541;
+  color: #212120;
 }
 .service_item p {
   line-height: 30px;
@@ -1227,8 +1227,8 @@ input[type=text] {
   margin-bottom: 0;
 }
 .service_item:hover .icon {
-  background: #a1b541;
-  border-color: #a1b541;
+  background: #212120;
+  border-color: #212120;
   color: #fff;
 }
 
@@ -1251,7 +1251,7 @@ input[type=text] {
   transition: all 0.2s linear;
 }
 .service_item_two .service_content h6:hover {
-  color: #a1b541;
+  color: #212120;
 }
 .service_item_two .service_content p {
   line-height: 30px;
@@ -1462,7 +1462,7 @@ input[type=text] {
   transition: all 0.8s ease 0s;
 }
 .project_img .img_popup {
-  color: #a1b541;
+  color: #212120;
   font-size: 24px;
   line-height: 20px;
   margin-top: 10px;
@@ -1545,7 +1545,7 @@ input[type=text] {
   padding: 11px 10px 9px;
 }
 .portfolio_filter .portfolio_item.active {
-  color: #a1b541;
+  color: #212120;
 }
 .portfolio_filter .portfolio_item + .portfolio_item {
   margin-left: 45px;
@@ -1674,7 +1674,7 @@ input[type=text] {
   display: none;
 }
 .testimonial_inner .slick-dots li.slick-active button {
-  background: #a1b541;
+  background: #212120;
   -webkit-transform: scale(1.03);
       -ms-transform: scale(1.03);
           transform: scale(1.03);
@@ -1755,7 +1755,7 @@ input[type=text] {
   font-weight: 300;
 }
 .promo_content h2 .color_green {
-  color: #a1b541;
+  color: #212120;
   font-weight: 700;
 }
 .promo_content h6 {
@@ -1776,7 +1776,7 @@ input[type=text] {
   margin-top: 15px;
   min-width: 230px;
   padding: 8px 44px;
-  border: 3px solid #a1b541;
+  border: 3px solid #212120;
 }
 .promo_content .theme_btn:hover {
   background: transparent;
@@ -1827,7 +1827,7 @@ input[type=text] {
 /*=============fact_area css ==================*/
 /*=============fact_area_two css ==================*/
 .fact_area_two .fact_item .counter {
-  color: #a1b541;
+  color: #212120;
 }
 .fact_area_two .fact_item p {
   color: #8b8b8b;
@@ -1884,7 +1884,7 @@ input[type=text] {
   transition: all 0.2s linear;
 }
 .team_item .team_content h6:hover {
-  color: #a1b541;
+  color: #212120;
 }
 .team_item .team_content p {
   color: #83858b;
@@ -1912,7 +1912,7 @@ input[type=text] {
   font-size: 24px;
 }
 .team_item .team_content ul li a:hover {
-  color: #a1b541;
+  color: #212120;
 }
 .team_item:hover img {
   -webkit-transform: scale(1.03);
@@ -1969,7 +1969,7 @@ input[type=text] {
 .price_item .p_head .border {
   width: 60px;
   height: 3px;
-  background: #a1b541;
+  background: #212120;
   margin: 0 auto;
   border: 0px !important;
 }
@@ -1994,7 +1994,7 @@ input[type=text] {
 }
 .price_item ul li i {
   margin-right: 6px;
-  color: #a1b541;
+  color: #212120;
 }
 .price_item ul li i:before {
   font-size: 14px;
@@ -2077,7 +2077,7 @@ input[type=text] {
   text-align: center;
   font-size: 36px;
   line-height: 90px;
-  color: #a1b541;
+  color: #212120;
   background: rgba(19, 19, 19, 0.5);
   border-radius: 3px;
   -webkit-transition: all 0.2s linear;
@@ -2100,7 +2100,7 @@ input[type=text] {
   letter-spacing: 0.77px;
 }
 .blog_item .post_info a {
-  color: #a1b541;
+  color: #212120;
 }
 .blog_item .title_head {
   -webkit-transition: color 0.2s linear;
@@ -2108,7 +2108,7 @@ input[type=text] {
   transition: color 0.2s linear;
 }
 .blog_item .title_head:hover {
-  color: #a1b541;
+  color: #212120;
 }
 .blog_item p {
   line-height: 30px;
@@ -2153,7 +2153,7 @@ input[type=text] {
   border: 0px;
 }
 .gray_btn:hover {
-  background: #a1b541;
+  background: #212120;
   color: #fff;
 }
 
@@ -2239,8 +2239,8 @@ input[type=text] {
   font-weight: 500;
 }
 .post_info .theme_name {
-  color: #a1b541;
-  border-bottom: 1px solid #a1b541;
+  color: #212120;
+  border-bottom: 1px solid #212120;
   display: inline-block;
   line-height: 12px;
   margin-right: 8px;
@@ -2263,7 +2263,7 @@ input[type=text] {
   margin: 0px 20px;
 }
 .post_social_link .theme_btn_two:hover {
-  border-color: #a1b541;
+  border-color: #212120;
 }
 
 .related_post .blog_content {
@@ -2283,7 +2283,7 @@ input[type=text] {
   background: #8b8b8b;
 }
 .related_post .gray_btn:hover {
-  background: #a1b541;
+  background: #212120;
 }
 
 /*======= blog_comment_area ========*/
@@ -2353,7 +2353,7 @@ input[type=text] {
   font-size: 14px;
 }
 .comment_author .media-body .comment_reply:hover {
-  color: #a1b541;
+  color: #212120;
 }
 .comment_author .media-body .comment_reply + .comment_reply {
   margin-left: 25px;
@@ -2511,7 +2511,7 @@ input[type=text] {
 }
 
 #success {
-  color: #a1b541;
+  color: #212120;
 }
 
 #error {
@@ -2650,7 +2650,7 @@ input[type=text] {
   transition: all 0.2s linear;
 }
 .f_widget .tweets_feed li .twitter_item:hover p span {
-  color: #a1b541;
+  color: #212120;
 }
 .f_widget .tweets_feed li .twitter_item:hover p a {
   color: #fff;
